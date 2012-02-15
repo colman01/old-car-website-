@@ -1,0 +1,284 @@
+*
+{
+    font-family: verdana, arial, sans-serif;
+}
+
+a {
+	color: #0259ff; 
+	text-decoration: none;
+}
+
+a:hover 
+{
+	color: #000; 
+	text-decoration: underline;
+}
+
+a:active 
+{
+	color: #000; 
+	text-decoration: underline;
+}
+
+body
+{
+	background: #f2f2f2;
+	text-align: center;
+	margin: 10px;
+}
+
+#logo
+{
+	width: 750px;
+	height: 70px;	
+	background-image: url(images/logo.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+#menu {
+    padding-top: 12px;
+    width: 750px;
+    margin: auto;
+	text-align: left;
+}
+
+#menu a {
+    width: 180px;
+    border: thin double #464fff;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: block;
+    font-size: 4mm;
+    margin-right: 10px;
+    margin-top: 2px;
+    background: #d4d4d4;
+    text-decoration: none; /* remove link underlines */
+}
+
+#menu a:hover
+{
+    color: #d4d4d4;
+    background: #ca3e0b;
+}
+
+#content
+{
+	width: 750px;
+	margin: auto;
+	text-align: left;
+}
+
+#about
+{
+    width: 230px;
+    margin-top: 100px;
+    font-family: verdana, arial, sans-serif;
+    font-size: 15px;
+    color: #000;
+    text-align: center;
+    background-color: #d4d4d4;
+    margin-bottom: 20px;
+}
+
+
+.padd
+{
+	padding: 10px;	
+	text-align: left;
+	font-size: 15px;
+}
+
+#accountmenu
+{
+    width: 210px;
+    margin-top: 30px;
+    margin-left: 16px;
+    font-family: verdana, arial, sans-serif;
+    font-size: 15px;
+    color: #000;
+    background-color: #c9c9c9;
+	text-align: left;
+	font-size: 15px;
+}
+
+.head
+{
+	color: #ca3e0b;
+	font-family: verdana, arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+li.links
+{
+	list-style-image: url(images/arrow2.jpg);
+	color: #000;
+}
+
+li.links a
+{
+	color: #0259ff;
+	text-decoration: none;
+}
+
+li.links a:hover
+{
+	color: #0259ff;
+	text-decoration: underline;
+}
+
+.headerline
+{
+	width: 750px;
+	height: 14px;
+	margin: auto;
+	background-image: url(images/bg_headerline.png);
+	background-position: center;
+	background-repeat: repeat-x;
+}
+
+.footerline
+{
+	width: 750px;
+	height: 14px;
+	margin: auto;
+	background-image: url(images/bg_footerline.png);
+	background-position: center;
+	background-repeat: repeat-x;
+}
+
+.footernote
+{
+	color: #000;
+	font-family: verdana, arial, sans-serif;
+	font-size: 13px;
+}
+
+#con
+{
+	margin-top: 10px;
+	font-family: verdana, arial, sans-serif;
+	font-size: 15px;
+	color: #000;
+	width: 730px;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+.box
+{
+	background: #b0b0b0;
+	border: 1px solid #d4d4d4;
+	width: 730px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.box input 
+{
+	border: 1px solid #d4d4d4;
+	background: #fff;
+	width: 200px;
+}
+
+.box select
+{
+	border: 1px solid #d4d4d4;
+	background: #fff;
+	width: 200px;
+}
+
+.box td
+{
+	font-family: verdana, arial, sans-serif;
+	font-size: 15px;
+	color: #000;
+	width: 200px;
+}
+
+.l1
+{
+	border-right: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+	width: 230px;
+	padding: 5px;
+}
+.r1
+{
+	border-bottom: 1px solid #d4d4d4;
+	width: 230px;
+	padding: 5px;
+}
+.l2
+{
+	border-right: 1px solid #d4d4d4;
+	width: 230px;
+	padding: 5px;
+}
+.r2
+{
+	float: right;
+	width: 230px;
+	padding: 5px;
+}
+
+#con td
+{
+	color: #000;
+	font-family: verdana, arial, sans-serif;
+	font-size: 15px;
+}
+
+.nopic
+{
+    width: 140px;
+    height: 105px;
+    border: 1px solid #d4d4d4;
+    background-color: #c4c4c4;
+    text-align: center;
+}
+
+.addpic
+{
+    width: 100px;
+    height: 75px;
+    border: 1px solid #d4d4d4;
+    background-color: #c4c4c4;
+    text-align: center;
+}
+
+.car
+{
+	width: 730px;
+	border: 1px solid #d4d4d4;
+	background-color: #c4c4c4;
+	margin-bottom: 10px;
+}
+
+.car input 
+{
+	border: 1px solid #d4d4d4;
+	background: #999;
+	width: 140px;
+}
+
+.car select
+{
+	border: 1px solid #2b2b2b;
+	background: #000;
+	width: 200px;
+}
+
+.car td
+{
+	font-family: verdana, arial, sans-serif;
+	font-size: 15px;
+	color: #000;
+	width: 200px;
+}
